@@ -1,0 +1,48 @@
+.modal{
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.737);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  opacity: 0;
+  transition: 0.5s;
+  pointer-events: none;
+  
+}
+.modal button{
+  right: 10px;
+  top: 0;
+  position: absolute;
+  border: none;
+  font-size: 40px;
+  background-color: rgba(0, 0, 0, 0);
+}
+.modal_con{
+  border-radius: 10px;
+  position: relative;
+  background-color: white;
+  width: 300PX;
+  height: 100vh;
+  transition:  0.5s;
+  opacity: 1;
+  z-index: 3;
+  transform:translate(-100px);
+}
+
+.modal.open{
+  pointer-events: all;
+  opacity: 1;
+  transition: 0.5s;
+}
+.modal.open .modal_con{
+  
+  transform: translate(0px);
+}
+.nav{
+  display: grid;
+  place-items: center;
+}
