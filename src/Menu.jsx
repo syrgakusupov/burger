@@ -12,6 +12,7 @@ const Menu = ({active,setActive}) => {
         <NavLink to='/'> Home</NavLink>
         <NavLink to='/About'>About </NavLink>
         <NavLink to='/Service'> Service</NavLink>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid possimus, quaerat impedit quos dolore optio porro aliquam ratione, minus nam esse sunt ullam suscipit vel. Reiciendis autem aliquam dolorem dolor?
         </div>
        </div>
     </div>
